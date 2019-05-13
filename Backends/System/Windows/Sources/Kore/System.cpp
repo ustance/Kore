@@ -232,7 +232,7 @@ namespace {
 		keyTranslated[VK_OEM_MINUS] = Kore::KeyHyphenMinus;
 		keyTranslated[VK_OEM_PERIOD] = Kore::KeyPeriod;
 		// keyTranslated[VK_OEM_2 //Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '/?' key
-		// keyTranslated[VK_OEM_3 //Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '`~' key
+		keyTranslated[VK_OEM_3] = Kore::KeyBackQuote; //it can vary by keyboard. For the US standard keyboard, the '`~' key
 		// keyTranslated[VK_OEM_4 //Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '[{' key
 		// keyTranslated[VK_OEM_5 //Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '\|' key
 		// keyTranslated[VK_OEM_6 //Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the ']}' key
